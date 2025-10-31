@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Math;
+
 class luaslingkaran {
 
     public const phi = 3.14;
@@ -25,9 +27,4 @@ class luaslingkaran {
     }
 }
 
-$lingkaran = new luaslingkaran(12);
-//$lingkaran->jari = 12;
-$lingkaran->tampil('roda');//panggil method tampil
-
-luaslingkaran::testing();//panggil static method
 
